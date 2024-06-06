@@ -12,6 +12,8 @@ export default {
         dark: '#ba000d',
         contrastText: '#000',
         categorycard: '#45a99b',
+        slightygreen:'#edf4f1',
+        globalgreen:"#5bbc61",
       },
     },
     fontFamily: {
