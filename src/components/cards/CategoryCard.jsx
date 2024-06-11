@@ -23,7 +23,7 @@ const CategoryCard = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="border border-gray-300 rounded-lg p-4">
           <div className="flex items-center justify-between border-b pb-2 mb-2">
-            <h3 className="text-gray-700 font-semibold">Education</h3>
+            <h3 className="text-gray-700 font-semibold text-sm mr-2">Education</h3>
             <p className="text-green-600 text-sm bg-green-200 rounded-full px-2 py-1">
               +20%
             </p>
@@ -37,13 +37,13 @@ const CategoryCard = () => {
         </div>
         <div className="border border-gray-300 rounded-lg p-4">
           <div className="flex items-center justify-between border-b pb-2 mb-2">
-            <h3 className="text-gray-700 font-semibold">Health</h3>
+            <h3 className="text-gray-700 font-semibold text-sm">Health</h3>
             <p className="text-purple-600 bg-purple-200 rounded-full px-2 py-1">
               +5%
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <p className="text-gray-500">50 uploads</p>
+            <p className="text-gray-500 text-sm">50 uploads</p>
             <a href="#" className="text-blue-500 hover:underline">
               View
             </a>
@@ -51,13 +51,13 @@ const CategoryCard = () => {
         </div>
         <div className="border border-gray-300 rounded-lg p-4">
           <div className="flex items-center justify-between border-b pb-2 mb-2">
-            <h3 className="text-gray-700 font-semibold">Others</h3>
+            <h3 className="text-gray-700 font-semibold text-sm">Others</h3>
             <p className="text-purple-600 bg-purple-100 rounded-full px-2 py-1">
               +3%
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <p className="text-gray-500">30 uploads</p>
+            <p className="text-gray-500 text-sm">30 uploads</p>
             <a href="#" className="text-blue-500 hover:underline">
               View
             </a>

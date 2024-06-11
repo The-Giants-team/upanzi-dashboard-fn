@@ -28,7 +28,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
         </button>
       </div>
       <ul className="mt-4">
-        <li className="flex items-center p-4 text-gray-600 hover:bg-gray-100">
+        <li className="flex items-center p-4 text-gray-600 hover:bg-green-100">
           <NavLink
             to="/"
             exact
@@ -39,7 +39,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
             {!isCollapsed && <span>Dashboard</span>}
           </NavLink>
         </li>
-        <li className="flex items-center p-4 text-gray-600 hover:bg-gray-100">
+        <li className="flex items-center p-4 text-gray-600 hover:bg-green-100">
           <NavLink
             to="/datasets"
             activeClassName="bg-green-100"
@@ -49,7 +49,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
             {!isCollapsed && <span>Datasets</span>}
           </NavLink>
         </li>
-        <li className="flex items-center p-4 text-gray-600 hover:bg-gray-100">
+        <li className="flex items-center p-4 text-gray-600 hover:bg-green-100">
           <NavLink
             to="/user-roles"
             activeClassName="bg-green-100"
@@ -59,7 +59,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
             {!isCollapsed && <span>User Roles</span>}
           </NavLink>
         </li>
-        <li className="flex items-center p-4 text-gray-600 hover:bg-gray-100">
+        <li className="flex items-center p-4 text-gray-600 hover:bg-green-200">
           <NavLink
             to="/suggestions"
             activeClassName="bg-green-100"

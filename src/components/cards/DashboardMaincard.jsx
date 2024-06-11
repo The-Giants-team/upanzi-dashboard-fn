@@ -48,7 +48,7 @@ const DashboardCard = () => {
           </div>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center px-12">
           <div className="relative">
             <svg className="w-16 h-16 text-purple-600" viewBox="0 0 36 36">
               <path

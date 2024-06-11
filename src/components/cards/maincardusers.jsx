@@ -9,16 +9,16 @@ const MainusersCard = () => {
         <span className="text-gray-700 text-lg ml-2">Users</span>
       </div>
       <div className="border-b border-gray-400 pb-2"></div>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-6 text-sm">
         <div className="text-gray-500">Statistics</div>
         <div className="text-gray-500">Individuals(100)</div>
         <div className="text-gray-500">Organizations(20)</div>
         <div className="text-blue-500 hover:underline cursor-pointer">View a list</div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
         <div className="border border-gray-300 rounded-lg p-4">
           <div className="flex items-center justify-between mb-2 border-b pb-2">
-            <h3 className="text-gray-700 font-semibold">Education</h3>
+            <h3 className="text-gray-700 font-semibold mr-2">Education</h3>
             <p className="text-green-600 bg-green-200 rounded-full px-2 py-1">+20%</p>
           </div>
           <div className="flex items-center justify-between">

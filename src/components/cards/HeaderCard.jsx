@@ -9,11 +9,11 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between ml-8 bg-white shadow border rounded">
       <div className="flex items-center">
-        <div className="text-left">
+        <div className="text-left ml-4 py-2">
           <img src={upanzilogo} alt="upanzilogo" className="border-r" />
         </div>
       </div>
-      <div className="flex items-center space-x-4 border">
+      <div className="flex items-center space-x-4   mr-4">
         <Avatar alt="avatal" src={avatal} />
         <span className="text-gray-800">Manzi David</span>
         <Button
@@ -24,7 +24,7 @@ const Header = () => {
             color: "green",
             fontWeight: "bold",
             boxShadow: "none",
-            marginLeft: "8px", // Adjust the value as needed
+            marginLeft: "8px", 
             "&:hover": {
               backgroundColor: "green",
               color: "white",

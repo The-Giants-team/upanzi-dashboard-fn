@@ -21,7 +21,7 @@ const DataCard = () => {
         <p className="text-gray-800 text-left">
           Education is one of the most powerful instruments.
         </p>
-        <button className="bg-slightygreen  w-44  h-8  text-green-500 px-2 py-2 rounded-md  hover:bg-green-500 hover:text-white">
+        <button className="bg-slightygreen mt-2  w-44  h-8  text-green-500 px-2  rounded-md text-center  hover:bg-green-500 hover:text-white">
           Read more
         </button>
       </div>

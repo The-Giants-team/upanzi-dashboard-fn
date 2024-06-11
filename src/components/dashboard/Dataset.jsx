@@ -2,33 +2,31 @@ import DatasetMenu from "../menu/datasetmenu";
 import DataCard from "../cards/datasetcards/datacard";
 import Datasetmaincard from "../cards/datasetcards/datasetmaincard";
 
-
 const Dataset = () => {
     return (
-           <div>
-            <Datasetmaincard/>
-            <DatasetMenu/>
-            <div className="flex space-x-12">
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
-          
+        <div>
+            <Datasetmaincard />
+            <DatasetMenu />
+            <div className="flex justify-center space-x-12">
+                <DataCard />
+                <DataCard />
+                <DataCard />
+                <DataCard />
             </div>
-            <div className="flex space-x-12">
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
+            <div className="flex justify-center space-x-12">
+                <DataCard />
+                <DataCard />
+                <DataCard />
+                <DataCard />
             </div>
-            <div className="flex space-x-12">
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
-              <DataCard/>
+            <div className="flex justify-center space-x-12">
+                <DataCard />
+                <DataCard />
+                <DataCard />
+                <DataCard />
             </div>
-           </div>
-           
-        );
-      };
-      export default Dataset;
+        </div>
+    );
+};
+
+export default Dataset;

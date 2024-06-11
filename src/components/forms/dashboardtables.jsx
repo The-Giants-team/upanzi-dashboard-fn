@@ -40,13 +40,13 @@ const DatasetTable = () => {
       <h2 className="text-2xl font-semibold mb-4">Datasets</h2>
       <div className="flex justify-between p-4 bg-gray-100 rounded-md mb-4">
         <div className="flex space-x-2">
-          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md">Category<ArrowDropDownIcon/></button>
-          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md">Accessibility<ArrowDropDownIcon/></button>
+          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md hover:bg-green-200">Category<ArrowDropDownIcon/></button>
+          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md hover:bg-green-200">Accessibility<ArrowDropDownIcon/></button>
         </div>
         <div className="flex space-x-4">
-          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md">Most recent</button>
-          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md">Most viewed</button>
-          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md">Most downloaded</button>
+          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md hover:bg-green-200">Most recent</button>
+          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md hover:bg-green-200">Most viewed</button>
+          <button className="bg-white border border-gray-300 px-4 py-2 rounded-md hover:bg-green-200">Most downloaded</button>
         </div>
       </div>
       <div className="overflow-x-auto">
@@ -76,17 +76,17 @@ const DatasetTable = () => {
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{dataset.time}</td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{dataset.views}</td>
                 <td className="px-6 py-4 whitespace-nowrap">
-                  <span className="text-sm font-medium text-gray-900 bg-gray-100 py-1 px-3 rounded-full">{dataset.accessibility}</span>
+                  <span className="text-sm font-medium text-gray-900 bg-gray-100 py-1 px-3 hover:bg-green-100 rounded-full">{dataset.accessibility}</span>
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap">
                   <div className="flex items-center space-x-2">
                     <button className="text-green-500">
                       <VisibilityIcon />
                     </button>
-                    <button className="text-gray-500">
+                    <button className="text-gray-500 hover:text-blue-500">
                       <GetAppIcon />
                     </button>
-                    <button className="text-gray-500">
+                    <button className="text-gray-500 hover:text-red-500">
                       <DeleteIcon />
                     </button>
                   </div>

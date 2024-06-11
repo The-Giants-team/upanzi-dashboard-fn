@@ -13,15 +13,16 @@ const UserCard = () => {
         <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center mr-4">
           <img src={avatal} alt="Avatar" className="w-8 h-8 rounded-full" />
         </div>
-        <div  >
+        <div className="borer-b"  >
           <p className="text-black">Anna Lisa</p>
         </div>
+   
       </div>
       <div className="mt-4 ">
         <p className="text-gray-800 text-left">
           annalisa@gmail.com
         </p>
-        <button className="bg-slightygreen  w-44  h-8  border text-green-500 px-4 py-2 rounded-md  hover:bg-green-500 hover:text-white">
+        <button className="bg-slightygreen  w-44  h-8  border text-green-500  mt-2 rounded-md  hover:bg-green-500 hover:text-white">
           Individual<ArrowDropDownIcon/>
         </button>
       </div>
